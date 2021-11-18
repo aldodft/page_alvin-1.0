@@ -1,0 +1,111 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="css/estilos.css">
+        
+        <link rel='manifest' href='manifest.json'>
+        
+        <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+    </head>
+    
+    <body onload="startDB()">
+        <section id="container-slider">	
+          <a href="javascript: funcionEjecutar('anterior');" class="arrowPrev"><i class="fas fa-chevron-circle-left"></i></a>
+          <a href="javascript: funcionEjecutar('siguiente');" class="arrowNext"><i class="fas fa-chevron-circle-right"></i></a>
+          <ul class="listslider">
+            <li><a itlist="itList_0" href="#" class="item-select-slid"></a></li>
+            <li><a itlist="itList_1" href="#"></a></li>
+            <li><a itlist="itList_2" href="#"></a></li>
+          </ul>
+          <ul id="slider">
+            <li style="background-image: url('img/01.jpg'); z-index:0; opacity: 1;">
+              <div class="content_slider" >
+                <div>
+                  <h2>Imagen 1</h2>
+                  <p>Escribe el texto que aparecerá sobre la imagen número 1.</p>
+                  <a href="#" target="_blank" class="btnSlider">Acceder</a>
+                </div>
+              </div>
+            </li>
+            <li style="background-image: url('img/02.jpg'); ">
+              <div class="content_slider" >
+                <div>
+                  <h2>Imagen 2</h2>
+                  <p>Escribe el texto que aparecerá sobre la imagen número 2</p>
+                  <a href="#" target="_blank" class="btnSlider">Acceder</a>
+                </div>
+              </div>
+            </li>
+            <li style="background-image: url('img/03.jpg'); ">
+              <div class="content_slider" >
+                <div>
+                  <h2>Imagen 3</h2>
+                  <p>Escribe el texto que aparecerá sobre la imagen número 3</p>
+                  <a href="#" target="_blank" class="btnSlider">Acceder</a>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </section>
+        <section id="logon">
+          <div class="login-page">
+            <div class="form">
+              <form class="register-form">
+                <input type="text" id="nombre_reg" placeholder="Nombre"/>
+                <input type="password" id="cedula" placeholder="Contraseña"/>
+                <input type="text" id="correo" placeholder="Correo"/>
+                <button id="Registrar">Crear en local</button>
+                <br>
+                <button id="RegistrarBD" style="background-color: blue; opacity: 0.8;">Crear en indb</button>
+                <p class="message">Ya estas registrado? <a href="#logon">Iniciar sesion</a></p>
+              </form>
+              <form class="login-form">
+                <input type="text" id="nombre_ini" placeholder="Nombre"/>
+                <input type="password" id="contra_ini" placeholder="Contraseña"/>
+                <button id="login">Iniciar Sesion</button>
+                <p class="message">No estas registrado? <a href="#logon">Crear cuenta</a></p>
+              </form>
+            </div>
+          </div>
+          
+        </section>
+        <br>
+        <hr>
+        <section>
+          <div class="login-page" >
+            <div class="form">
+                <button>Ver datos sesionstorage</button>
+                <button id="ver_local" style="background-color: blue; opacity: 0.8;">Ver datos localstorage</button>
+                <button id="ver_indb">Ver datos IndexedDb</button>
+              sdasd
+              <div id="elementsList">
+
+              </div>
+            </div>
+            
+          </div>
+        </section>
+
+        <br>
+        <hr>
+        <section>
+          <div class="login-page" >
+            <div class="form">
+                <button style="background-color: red; opacity: 0.8;">Borrar datos sesionstorage</button>
+                <button id="del_local" style="background-color: red; opacity: 0.8;">Borrar datos localstorage</button>
+                <button id="del_indb" style="background-color: red; opacity: 0.8;">Borrar datos IndexedDb</button>
+              sdasd
+              <div id="elementsList">
+
+              </div>
+            </div>
+            
+          </div>
+        </section>
+        <script defer src="js/all.js"></script>
+        
+        <<script src="js/script.js"></script>
+        <script src="js/jquery.min.js"></script>
+        <script defer src="js/funciones.js"></script>
+    </body>
+    
+</html>

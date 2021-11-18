@@ -1,0 +1,48 @@
+{
+    "name" : "page_alvin",
+    "short_name" : "page_alvin",
+    "description" : "esto es un slider de page_alvin",
+    "start_url": "./?utm_source=web_app_manifest",
+    "scope": "./",
+    "lang": "es-CO",
+    "display" : "standalone",
+    "theme_color": "#3d3d3d",
+    "background_color": "#f2f2f2",
+    "orientation" : "portrait",
+    "icons": [
+       {
+           "src": "./img/icons/ico_512.png",
+           "sizes": "512x512",
+           "type": "image/png"
+           },
+           {
+           "src": "./img/icons/ico_256.png",
+           "sizes": "256x256",
+           "type": "image/png"
+           },
+           {
+           "src": "./img/icons/ico_128.png",
+           "sizes": "128x128",
+           "type": "image/png"
+           },
+           {
+           "src": "./img/icons/ico_96.png",
+           "sizes": "96x96",
+           "type": "image/png"
+           },
+           {
+            "src": "./img/icons/ico_72.png",
+            "sizes": "72x72",
+            "type": "image/png"
+            },
+           {
+           "src": "./img/icons/ico_64.png",
+           "sizes": "64x64",
+           "type": "image/png"
+           },
+           {
+           "src": "./img/icons/ico_32.png",
+           "sizes": "32x32",
+           "type": "image/png"
+           }]
+    }
